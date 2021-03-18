@@ -13,6 +13,7 @@
 		BBAC9962260320710022E9A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBAC9960260320710022E9A3 /* Main.storyboard */; };
 		BBAC9964260320760022E9A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBAC9963260320760022E9A3 /* Assets.xcassets */; };
 		BBAC9967260320760022E9A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBAC9965260320760022E9A3 /* LaunchScreen.storyboard */; };
+		BBAC9972260323850022E9A3 /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAC9971260323850022E9A3 /* CustomCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		BBAC9963260320760022E9A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BBAC9966260320760022E9A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BBAC9968260320760022E9A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBAC9971260323850022E9A3 /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,24 @@
 		BBAC9959260320710022E9A3 /* pagerview */ = {
 			isa = PBXGroup;
 			children = (
+				BBAC996F260321F80022E9A3 /* view */,
 				BBAC995A260320710022E9A3 /* AppDelegate.swift */,
 				BBAC995C260320710022E9A3 /* SceneDelegate.swift */,
-				BBAC995E260320710022E9A3 /* ViewController.swift */,
 				BBAC9960260320710022E9A3 /* Main.storyboard */,
 				BBAC9963260320760022E9A3 /* Assets.xcassets */,
 				BBAC9965260320760022E9A3 /* LaunchScreen.storyboard */,
 				BBAC9968260320760022E9A3 /* Info.plist */,
 			);
 			path = pagerview;
+			sourceTree = "<group>";
+		};
+		BBAC996F260321F80022E9A3 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				BBAC995E260320710022E9A3 /* ViewController.swift */,
+				BBAC9971260323850022E9A3 /* CustomCollectionViewCell.swift */,
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +151,7 @@
 				BBAC995F260320710022E9A3 /* ViewController.swift in Sources */,
 				BBAC995B260320710022E9A3 /* AppDelegate.swift in Sources */,
 				BBAC995D260320710022E9A3 /* SceneDelegate.swift in Sources */,
+				BBAC9972260323850022E9A3 /* CustomCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,7 +304,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.nybsys.pagerview.pagerview;
+				PRODUCT_BUNDLE_IDENTIFIER = com.faisal.pagerview.pagerview;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -310,7 +322,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.nybsys.pagerview.pagerview;
+				PRODUCT_BUNDLE_IDENTIFIER = com.faisal.pagerview.pagerview;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
