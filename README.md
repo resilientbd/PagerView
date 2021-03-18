@@ -89,3 +89,7 @@ This project demonstrate how animation like view pager can be implemented with c
   
   ```
   
+   # Demo Video: 
+ 
+ [![Swipable Collection View Demo](screenshots/demo_screen.png)](https://www.youtube.com/watch?v=n6-0D1r_1mM&list=PLLw6OLk_lXHrMfxlTY8fKYTBW1oTRSI6O)
+  
